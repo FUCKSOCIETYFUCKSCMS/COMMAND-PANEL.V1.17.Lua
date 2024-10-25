@@ -1,0 +1,1 @@
+this exploit is able to do basically everything u want aimbot fly speed invisible its solora, system_broken and more (i am not assoiciated with any problems this script may create this is purely made for education purposes only)
