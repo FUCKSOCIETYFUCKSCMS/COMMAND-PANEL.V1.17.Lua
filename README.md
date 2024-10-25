@@ -1,1 +1,1 @@
-this exploit is able to do basically everything u want aimbot fly speed invisible its solora, system_broken and more (i am not assoiciated with any problems this script may create this is purely made for education purposes only)
+this exploit is everything you will ever need with an simple lua based script easy to use for amateur scripters it includes esp, fly, fling, chat alert and an admin notifier it only has been tested with solara
