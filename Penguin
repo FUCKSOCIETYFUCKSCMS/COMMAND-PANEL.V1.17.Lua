@@ -405,16 +405,16 @@ Background.Draggable = true
 
 TitleBarLabel.Name = "TitleBarLabel"
 TitleBarLabel.Parent = Background
-TitleBarLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TitleBarLabel.BackgroundColor3 = Color3.fromRGB(5, 5, 5)
 TitleBarLabel.BackgroundTransparency = 0.250
-TitleBarLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TitleBarLabel.BorderColor3 = Color3.fromRGB(5, 5, 5)
 TitleBarLabel.BorderSizePixel = 0
 TitleBarLabel.Size = UDim2.new(1, 0, 0, 30)
 TitleBarLabel.Font = Enum.Font.Unknown
-TitleBarLabel.Text = "__/The Penguin Gui\_"
-TitleBarLabel.TextColor3 = Color3.fromRGB(0, 255, 255)
+TitleBarLabel.Text = " --͓̽T͓͓̽̽h͓͓̽̽e͓̽ ͓̽P͓͓̽̽e͓͓̽̽n͓͓̽̽g͓͓̽̽u͓͓̽̽i͓͓̽̽n͓̽ ͓̽G͓͓̽̽u͓͓̽̽i͓̽--"
+TitleBarLabel.TextColor3 = Color3.fromRGB(225, 225, 225)
 TitleBarLabel.TextScaled = true
-TitleBarLabel.TextSize = 14.000
+TitleBarLabel.TextSize = 10.000
 TitleBarLabel.TextWrapped = true
 TitleBarLabel.TextXAlignment = Enum.TextXAlignment.Left
 
