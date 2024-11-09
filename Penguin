@@ -1871,7 +1871,7 @@ Serverhop_Button.TextWrapped = true
 
 ChatBox_Input.Name = "ChatBox_Input"
 ChatBox_Input.Parent = Misc_Section
-ChatBox_Input.BackgroundColor3 = Color3.fromRGB(50, 350, 50)
+ChatBox_Input.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
 ChatBox_Input.BorderColor3 = Color3.fromRGB(175, 25, 25)
 ChatBox_Input.Position = UDim2.new(0, 25, 0, 325)
 ChatBox_Input.Size = UDim2.new(0, 335, 0, 50)
