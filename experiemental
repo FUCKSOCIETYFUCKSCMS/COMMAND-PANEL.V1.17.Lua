@@ -3452,7 +3452,7 @@ end)
 
 Night_Button.MouseButton1Click:Connect(function()
 	if Shaders_Button.Ticket_Asset.ImageColor3 == Color3.fromRGB(255,0,0) then
-		game:GetService("Lighting").ClockTime = 19
+		game:GetService("Lighting").ClockTime = 0
 	else
 		SendNotify("The Penguin Gui","Please turn off shaders.",5)
 	end
