@@ -350,7 +350,7 @@ local Shaders_Button = Instance.new("TextButton")
 local Day_Button = Instance.new("TextButton")
 local Night_Button = Instance.new("TextButton")
 local Rejoin_Button = Instance.new("TextButton")
-local CMDX_Button = Instance.new("TextButton")
+local V0RT3X_Button = Instance.new("TextButton")
 local InfYield_Button = Instance.new("TextButton")
 local Serverhop_Button = Instance.new("TextButton")
 local Explode_Button = Instance.new("TextButton")
@@ -1809,20 +1809,20 @@ Rejoin_Button.TextScaled = true
 Rejoin_Button.TextSize = 14.000
 Rejoin_Button.TextWrapped = true
 
-CMDX_Button.Name = "CMDX_Button"
-CMDX_Button.Parent = Misc_Section
-CMDX_Button.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
-CMDX_Button.BackgroundTransparency = 0.500
-CMDX_Button.BorderColor3 = Color3.fromRGB(0, 0, 0)
-CMDX_Button.BorderSizePixel = 0
-CMDX_Button.Position = UDim2.new(0, 210, 0, 175)
-CMDX_Button.Size = UDim2.new(0, 150, 0, 30)
-CMDX_Button.Font = Enum.Font.Oswald
-CMDX_Button.Text = "C̳̿͟͞M̳̿͟͞D̳̿͟͞X̳̿͟͞"
-CMDX_Button.TextColor3 = Color3.fromRGB(225, 225, 225)
-CMDX_Button.TextScaled = true
-CMDX_Button.TextSize = 14.000
-CMDX_Button.TextWrapped = true
+V0RT3X_Button.Name = "V0RT3X_Button"
+V0RT3X_Button.Parent = Misc_Section
+V0RT3X_Button.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+V0RT3X_Button.BackgroundTransparency = 0.500
+V0RT3X_Button.BorderColor3 = Color3.fromRGB(0, 0, 0)
+V0RT3X_Button.BorderSizePixel = 0
+V0RT3X_Button.Position = UDim2.new(0, 210, 0, 175)
+V0RT3X_Button.Size = UDim2.new(0, 150, 0, 30)
+V0RT3X_Button.Font = Enum.Font.Oswald
+V0RT3X_Button.Text = "V̳̿͟͞0̳̿͟͞R̳̿͟͞T̳̿͟͞3̳̿͟͞X̳̿͟͞"
+V0RT3X_Button.TextColor3 = Color3.fromRGB(225, 225, 225)
+V0RT3X_Button.TextScaled = true
+V0RT3X_Button.TextSize = 14.000
+V0RT3X_Button.TextWrapped = true
 
 InfYield_Button.Name = "InfYield_Button"
 InfYield_Button.Parent = Misc_Section
@@ -2117,7 +2117,7 @@ CreateToggle(Shaders_Button)
 CreateClicker(Day_Button)
 CreateClicker(Night_Button)
 CreateClicker(Rejoin_Button)
-CreateClicker(CMDX_Button)
+CreateClicker(V0RT3X_Button)
 CreateClicker(Explode_Button)
 CreateClicker(FreeEmotes_Button)
 CreateClicker(InfYield_Button)
@@ -3462,8 +3462,8 @@ InfYield_Button.MouseButton1Click:Connect(function()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
 
-CMDX_Button.MouseButton1Click:Connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source",true))()
+V0RT3X_Button.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ImagineProUser/vortexdahood/main/vortex",true))()
 end)
 
 Explode_Button.MouseButton1Click:Connect(function()
@@ -3591,5 +3591,3 @@ end)
 SendNotify("Penguin Gui","Gui developed by The Penguin Company",10)
 setclipboard("T̸̛̲̠̱̮̰̝̗̯̥̞͈̂̋̃̎͊͗̐̌̇̆́̑̀͗̄̇̈́͝ͅh̴̨̢̳͍̱͛̈́͋͌͋͗̀͂̑͑̀͘ȇ̴̢̡̛̜̘͚̮͍̤͍̼̟̯̮̳͓̱͖͈͚̠͇̈́̈́̀̄̾͆̚͜͜͠͝ ̷̢̤̤͎̳̥̦̥̗͖̣͎̘͌͆̈͋̽̈́P̵̡̭̣̮̱̥͈̗̗̙̱̳̓̒̄́̀͛̿͑̔̈́̿͌͒̀͘͜͝͝͝͝e̸̛̻̣͕̹̦̥͍̤̹͉͕̱̮̺̪̭̘̬͗͗̃͜n̵̢̨̡̙̜̖͖̻̘̈́̋̋̌̀̕͝g̴̨̛̛͖̠̬͕̰̠͈̬͍̻̻̮̹̱͖͍͎̖̯͔̩̫͗͋͒̒͆̆̋̋̐̔̉̔̂̿͌̈́̅͘̚͜u̷̧̡̝̭͋͒͐̈́͂̈́̅̊̈́͗̌̈́̀͊͗͑̕͠͝ͅȉ̴̢̛͈͖̙͚͖̗͔͓̺̣̙̪̟̱͂̀̋͗͆̋̒ͅͅn̷̢̢̝͖͔͇̮̞̰̙͍̯͖̮͇͓̟͙̬̗̠̝̼̐͌̃̽̉̅̓̂͊̈́͘͘ ̸̙̫͚̺̹͕̙͙̟͋̐̈̎̉́͆̐̄̉́͊͂̐̋̎͆̊͂͑͘͘͘͜͝G̷̡̙̈́͛̅̎̈́̐̑͋͛͑͌̓̌͘̚u̴̽̽̎̌̏͜͝i̸̧̖̖̣̘̻̩̤͉͍̩̣͒͠ͅ")
 loadstring(game:HttpGet("https://raw.githubusercontent.com/H20CalibreYT/SystemBroken/main/premium"))() -- load the premium
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ImagineProUser/vortexdahood/main/vortex", true))() -- aimbot script
