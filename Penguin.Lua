@@ -1,4 +1,4 @@
-if game.CoreGui:FindFirstChild("SysBroker") then
+if game.CoreGui:FindFirstChild("TSSR1337") then
 	game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Penguin Gui",Text = "GUI Already loaded, rejoin to re-execute",Duration = 5;})
 	return
 end
@@ -251,7 +251,7 @@ end
 
 --LOAD GUI
 task.wait(0.1)
-local SysBroker = Instance.new("ScreenGui")
+local TSSR1337 = Instance.new("ScreenGui")
 local Background = Instance.new("ImageLabel")
 local TitleBarLabel = Instance.new("TextLabel")
 local SectionList = Instance.new("Frame")
@@ -382,12 +382,12 @@ local function CreateClicker(Button)
 	NewClicker.Parent = Button
 end
 
-SysBroker.Name = "SysBroker"
-SysBroker.Parent = game.CoreGui
-SysBroker.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+TSSR1337.Name = "TSSR1337"
+TSSR1337.Parent = game.CoreGui
+TSSR1337.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 Background.Name = "Background"
-Background.Parent = SysBroker
+Background.Parent = TSSR1337
 Background.AnchorPoint = Vector2.new(0.5, 0.5)
 Background.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
 Background.BorderColor3 = Color3.fromRGB(25, 25, 25)
@@ -1925,7 +1925,7 @@ Crown.Image = "http://www.roblox.com/asset/?id=136554112667062"
 Crown.ImageColor3 = Color3.fromRGB(255, 255, 255)
 
 Assets.Name = "Assets"
-Assets.Parent = SysBroker
+Assets.Parent = TSSR1337
 
 Ticket_Asset.Name = "Ticket_Asset"
 Ticket_Asset.Parent = Assets
@@ -2032,7 +2032,7 @@ FlySButton.TextSize = 25.000
 FlySButton.TextWrapped = true
 
 OpenClose.Name = "OpenClose"
-OpenClose.Parent = SysBroker
+OpenClose.Parent = TSSR1337
 OpenClose.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 OpenClose.BorderColor3 = Color3.fromRGB(0, 0, 0)
 OpenClose.BorderSizePixel = 0
@@ -2706,7 +2706,7 @@ ClickTargetTool_Button.MouseButton1Click:Connect(function()
 	local GetTargetTool = Instance.new("Tool")
 	GetTargetTool.Name = "ClickTarget"
 	GetTargetTool.RequiresHandle = false
-	GetTargetTool.TextureId = "rbxassetid://2716591855"
+	GetTargetTool.TextureId = "http://www.roblox.com/asset/?id=96087992310023"
 	GetTargetTool.ToolTip = "Select Target"
 
 	local function ActivateTool()
@@ -3348,10 +3348,9 @@ Shaders_Button.MouseButton1Click:Connect(function()
 		local ColorC = Instance.new("ColorCorrectionEffect")
 		local SunRays = Instance.new("SunRaysEffect")
 
-		
+-- Shader Gui
+	
 local Vignette = true -- change to false if you don't want a shadow frame
-
-
 
 local Lighting = game:GetService("Lighting")
 local StarterGui = game:GetService("StarterGui")
@@ -3380,7 +3379,7 @@ if Vignette == true then
 	local Gui = Instance.new("ScreenGui")
 	Gui.Parent = StarterGui
 	Gui.IgnoreGuiInset = true
-	
+
 	local ShadowFrame = Instance.new("ImageLabel")
 	ShadowFrame.Parent = Gui
 	ShadowFrame.AnchorPoint = Vector2.new(0.5,1)
@@ -3399,9 +3398,9 @@ Bloom.Threshold = 0.8
 Blur.Size = 5
 
 ColorCor.Brightness = 0.1
-ColorCor.Contrast = 0.5
+ColorCor.Contrast = 0.25
 ColorCor.Saturation = -0.3
-ColorCor.TintColor = Color3.fromRGB(150, 15, 15)
+ColorCor.TintColor = Color3.fromRGB(150, 150, 15) -- Atmosphere colour
 
 SunRays.Intensity = 0.075
 SunRays.Spread = 0.727
@@ -3429,10 +3428,13 @@ Lighting.ExposureCompensation = 0.5
 
 Atm.Density = 0.364
 Atm.Offset = 0.556
-Atm.Color = Color3.fromRGB(150, 15, 15) -- change colour here
-Atm.Decay = Color3.fromRGB(50, 50, 50)
+Atm.Color = Color3.fromRGB(150, 150, 0) -- Atmosphere colour
+Atm.Decay = Color3.fromRGB(150, 150, 0) -- Atmosphere colour
 Atm.Glare = 0.36
 Atm.Haze = 1.72
+
+-- Shader gui end
+			
 	else
 		for i,v in pairs(Light:GetChildren()) do
 			v:Destroy()
@@ -3570,7 +3572,7 @@ task.spawn(function()
 			if version<GuiVersion then
 				SendNotify("The Penguin Gui","You are not using the latest version, please run the script again.",5)
 				task.wait(5)
-				SysBroker:Destroy()
+				TSSR1337:Destroy()
 				game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, game.JobId, plr)
 			end
 		end)
@@ -3589,5 +3591,5 @@ game:GetService("UserInputService").InputBegan:Connect(function(input,gameProces
 end)
 
 SendNotify("Penguin Gui","Gui developed by The Penguin Company",10)
-setclipboard("T̸̛̲̠̱̮̰̝̗̯̥̞͈̂̋̃̎͊͗̐̌̇̆́̑̀͗̄̇̈́͝ͅh̴̨̢̳͍̱͛̈́͋͌͋͗̀͂̑͑̀͘ȇ̴̢̡̛̜̘͚̮͍̤͍̼̟̯̮̳͓̱͖͈͚̠͇̈́̈́̀̄̾͆̚͜͜͠͝ ̷̢̤̤͎̳̥̦̥̗͖̣͎̘͌͆̈͋̽̈́P̵̡̭̣̮̱̥͈̗̗̙̱̳̓̒̄́̀͛̿͑̔̈́̿͌͒̀͘͜͝͝͝͝e̸̛̻̣͕̹̦̥͍̤̹͉͕̱̮̺̪̭̘̬͗͗̃͜n̵̢̨̡̙̜̖͖̻̘̈́̋̋̌̀̕͝g̴̨̛̛͖̠̬͕̰̠͈̬͍̻̻̮̹̱͖͍͎̖̯͔̩̫͗͋͒̒͆̆̋̋̐̔̉̔̂̿͌̈́̅͘̚͜u̷̧̡̝̭͋͒͐̈́͂̈́̅̊̈́͗̌̈́̀͊͗͑̕͠͝ͅȉ̴̢̛͈͖̙͚͖̗͔͓̺̣̙̪̟̱͂̀̋͗͆̋̒ͅͅn̷̢̢̝͖͔͇̮̞̰̙͍̯͖̮͇͓̟͙̬̗̠̝̼̐͌̃̽̉̅̓̂͊̈́͘͘ ̸̙̫͚̺̹͕̙͙̟͋̐̈̎̉́͆̐̄̉́͊͂̐̋̎͆̊͂͑͘͘͘͜͝G̷̡̙̈́͛̅̎̈́̐̑͋͛͑͌̓̌͘̚u̴̽̽̎̌̏͜͝i̸̧̖̖̣̘̻̩̤͉͍̩̣͒͠ͅ")
-loadstring(game:HttpGet("https://raw.githubusercontent.com/H20CalibreYT/SystemBroken/main/premium"))() -- load the premium
+setclipboard("The Penguin Gui")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/H20CalibreYT/SystemBroken/main/premium"))() -- load the premium (doesnt work)
