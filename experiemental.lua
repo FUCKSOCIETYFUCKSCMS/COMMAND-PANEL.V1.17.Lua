@@ -1,4 +1,4 @@
-if game.CoreGui:FindFirstChild("SysBroker") then
+if game.CoreGui:FindFirstChild("TSSR1337") then
 	game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Penguin Gui",Text = "GUI Already loaded, rejoin to re-execute",Duration = 5;})
 	return
 end
@@ -251,7 +251,7 @@ end
 
 --LOAD GUI
 task.wait(0.1)
-local SysBroker = Instance.new("ScreenGui")
+local TSSR1337 = Instance.new("ScreenGui")
 local Background = Instance.new("ImageLabel")
 local TitleBarLabel = Instance.new("TextLabel")
 local SectionList = Instance.new("Frame")
@@ -382,12 +382,12 @@ local function CreateClicker(Button)
 	NewClicker.Parent = Button
 end
 
-SysBroker.Name = "SysBroker"
-SysBroker.Parent = game.CoreGui
-SysBroker.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+TSSR1337.Name = "TSSR1337"
+TSSR1337.Parent = game.CoreGui
+TSSR1337.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 Background.Name = "Background"
-Background.Parent = SysBroker
+Background.Parent = TSSR1337
 Background.AnchorPoint = Vector2.new(0.5, 0.5)
 Background.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
 Background.BorderColor3 = Color3.fromRGB(25, 25, 25)
@@ -1925,7 +1925,7 @@ Crown.Image = "http://www.roblox.com/asset/?id=136554112667062"
 Crown.ImageColor3 = Color3.fromRGB(255, 255, 255)
 
 Assets.Name = "Assets"
-Assets.Parent = SysBroker
+Assets.Parent = TSSR1337
 
 Ticket_Asset.Name = "Ticket_Asset"
 Ticket_Asset.Parent = Assets
@@ -2032,7 +2032,7 @@ FlySButton.TextSize = 25.000
 FlySButton.TextWrapped = true
 
 OpenClose.Name = "OpenClose"
-OpenClose.Parent = SysBroker
+OpenClose.Parent = TSSR1337
 OpenClose.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 OpenClose.BorderColor3 = Color3.fromRGB(0, 0, 0)
 OpenClose.BorderSizePixel = 0
@@ -3572,7 +3572,7 @@ task.spawn(function()
 			if version<GuiVersion then
 				SendNotify("The Penguin Gui","You are not using the latest version, please run the script again.",5)
 				task.wait(5)
-				SysBroker:Destroy()
+				TSSR1337:Destroy()
 				game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, game.JobId, plr)
 			end
 		end)
