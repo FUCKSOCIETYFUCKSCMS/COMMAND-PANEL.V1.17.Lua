@@ -2706,7 +2706,7 @@ ClickTargetTool_Button.MouseButton1Click:Connect(function()
 	local GetTargetTool = Instance.new("Tool")
 	GetTargetTool.Name = "ClickTarget"
 	GetTargetTool.RequiresHandle = false
-	GetTargetTool.TextureId = "rbxassetid://2716591855"
+	GetTargetTool.TextureId = "http://www.roblox.com/asset/?id=96087992310023"
 	GetTargetTool.ToolTip = "Select Target"
 
 	local function ActivateTool()
