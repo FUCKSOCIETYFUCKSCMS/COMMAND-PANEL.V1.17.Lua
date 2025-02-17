@@ -1,5 +1,5 @@
-if game.CoreGui:FindFirstChild("TSSR1337") then
-	game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Penguin Gui",Text = "GUI Already loaded, rejoin to re-execute",Duration = 5;})
+if game.CoreGui:FindFirstChild("iLikeGuys") then
+	game:GetService("StarterGui"):SetCore("SendNotification", {Title = "COMMAND/PANEL",Text = "GUI Already loaded, rejoin to re-execute",Duration = 5;})
 	return
 end
 local version = 2
@@ -251,7 +251,7 @@ end
 
 --LOAD GUI
 task.wait(0.1)
-local TSSR1337 = Instance.new("ScreenGui")
+local iLikeGuys = Instance.new("ScreenGui")
 local Background = Instance.new("ImageLabel")
 local TitleBarLabel = Instance.new("TextLabel")
 local SectionList = Instance.new("Frame")
@@ -382,22 +382,22 @@ local function CreateClicker(Button)
 	NewClicker.Parent = Button
 end
 
-TSSR1337.Name = "TSSR1337"
-TSSR1337.Parent = game.CoreGui
-TSSR1337.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+iLikeGuys.Name = "iLikeGuys"
+iLikeGuys.Parent = game.CoreGui
+iLikeGuys.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 Background.Name = "Background"
-Background.Parent = TSSR1337
+Background.Parent = iLikeGuys
 Background.AnchorPoint = Vector2.new(0.5, 0.5)
-Background.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+Background.BackgroundColor3 = Color3.fromRGB(200, 200, 200)
 Background.BorderColor3 = Color3.fromRGB(25, 25, 25)
 Background.Position = UDim2.new(0.5, 0, 0.5, 0)
 Background.Size = UDim2.new(0, 500, 0, 350)
 Background.ZIndex = 9
-Background.Image = "rbxassetid://159991693"
-Background.ImageColor3 = Color3.fromRGB(25, 25, 25)
-Background.ImageTransparency = 0.600
-Background.ScaleType = Enum.ScaleType.Tile
+Background.Image = "http://www.roblox.com/asset/?id=100844116817405"
+Background.ImageColor3 = Color3.fromRGB(225, 225, 225)
+Background.ImageTransparency = 0.00
+Background.ScaleType = Enum.ScaleType.Stretch
 Background.SliceCenter = Rect.new(0, 256, 0, 256)
 Background.TileSize = UDim2.new(0, 30, 0, 30)
 Background.Active = true
@@ -410,8 +410,8 @@ TitleBarLabel.BackgroundTransparency = 0.250
 TitleBarLabel.BorderColor3 = Color3.fromRGB(5, 5, 5)
 TitleBarLabel.BorderSizePixel = 0
 TitleBarLabel.Size = UDim2.new(1, 0, 0, 30)
-TitleBarLabel.Font = Enum.Font.Unknown
-TitleBarLabel.Text = "͓̽T͓͓̽̽h͓͓̽̽e͓̽ ͓̽P͓͓̽̽e͓͓̽̽n͓͓̽̽g͓͓̽̽u͓͓̽̽i͓͓̽̽n͓̽ ͓̽G͓͓̽̽u͓͓̽̽i͓̽"
+TitleBarLabel.Font = Enum.Font.Arcade
+TitleBarLabel.Text = "--COMMAND/PANEL--"
 TitleBarLabel.TextColor3 = Color3.fromRGB(225, 225, 225)
 TitleBarLabel.TextScaled = true
 TitleBarLabel.TextSize = 10.000
@@ -535,7 +535,7 @@ Credits_Section_Button.TextWrapped = true
 Game_Section.Name = "Game_Section"
 Game_Section.Parent = Background
 Game_Section.Active = true
-Game_Section.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Game_Section.BackgroundColor3 = Color3.fromRGB(225, 225, 225)
 Game_Section.BackgroundTransparency = 1.000
 Game_Section.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Game_Section.BorderSizePixel = 0
@@ -715,11 +715,11 @@ CMDBar.Parent = Game_Section
 CMDBar.AnchorPoint = Vector2.new(0.5, 0.5)
 CMDBar.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
 CMDBar.BackgroundTransparency = 0.300
-CMDBar.BorderColor3 = Color3.fromRGB(175, 25, 25)
+CMDBar.BorderColor3 = Color3.fromRGB(225, 225, 225)
 CMDBar.Position = UDim2.new(0.5, 0, 0, 350)
 CMDBar.Size = UDim2.new(0, 275, 0, 40)
 CMDBar.Font = Enum.Font.Gotham
-CMDBar.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+CMDBar.PlaceholderColor3 = Color3.fromRGB(225, 225, 225)
 CMDBar.PlaceholderText = "C̳̿͟͞M̳̿͟͞D̳̿͟͞ B̳̿͟͞A̳̿͟͞R̳̿͟͞..."
 CMDBar.Text = ""
 CMDBar.TextColor3 = Color3.fromRGB(225, 225, 225)
@@ -894,7 +894,7 @@ FreePushTool_Button.TextWrapped = true
 Home_Section.Name = "Home_Section"
 Home_Section.Parent = Background
 Home_Section.Active = true
-Home_Section.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Home_Section.BackgroundColor3 = Color3.fromRGB(225, 225, 225)
 Home_Section.BackgroundTransparency = 1.000
 Home_Section.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Home_Section.BorderSizePixel = 0
@@ -914,7 +914,7 @@ Profile_Image.Image = Players:GetUserThumbnailAsync(plr.UserId,Enum.ThumbnailTyp
 
 Welcome_Label.Name = "Welcome_Label"
 Welcome_Label.Parent = Home_Section
-Welcome_Label.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Welcome_Label.BackgroundColor3 = Color3.fromRGB(225, 225, 225)
 Welcome_Label.BackgroundTransparency = 1.000
 Welcome_Label.BorderColor3 = Color3.fromRGB(5, 5, 5)
 Welcome_Label.BorderSizePixel = 0
@@ -922,7 +922,7 @@ Welcome_Label.Position = UDim2.new(0, 150, 0, 25)
 Welcome_Label.Size = UDim2.new(0, 200, 0, 100)
 Welcome_Label.Font = Enum.Font.SourceSans
 Welcome_Label.Text = ("¡Hello @"..plr.Name.."!\nPress [B] to open and close Gui.")
-Welcome_Label.TextColor3 = Color3.fromRGB(175, 25, 25)
+Welcome_Label.TextColor3 = Color3.fromRGB(225, 225, 225)
 Welcome_Label.TextSize = 24.000
 Welcome_Label.TextWrapped = true
 Welcome_Label.TextXAlignment = Enum.TextXAlignment.Left
@@ -935,9 +935,9 @@ Announce_Label.BorderColor3 = Color3.fromRGB(5, 5, 5)
 Announce_Label.BorderSizePixel = 0
 Announce_Label.Position = UDim2.new(0, 25, 0, 150)
 Announce_Label.Size = UDim2.new(0, 350, 0, 150)
-Announce_Label.Font = Enum.Font.SourceSans
-Announce_Label.Text = "This code is owned and managed by [The Penguin Company] .\nSome Scripts are still in progress"
-Announce_Label.TextColor3 = Color3.fromRGB(175, 25, 25)
+Announce_Label.Font = Enum.Font.Arcade
+Announce_Label.Text = "This code is owned and managed by [Wet Bread Productions] .\nUi will update overtime"
+Announce_Label.TextColor3 = Color3.fromRGB(225, 225, 225)
 Announce_Label.TextSize = 24.000
 Announce_Label.TextWrapped = true
 Announce_Label.TextXAlignment = Enum.TextXAlignment.Left
@@ -946,7 +946,7 @@ Announce_Label.TextYAlignment = Enum.TextYAlignment.Top
 Character_Section.Name = "Character_Section"
 Character_Section.Parent = Background
 Character_Section.Active = true
-Character_Section.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Character_Section.BackgroundColor3 = Color3.fromRGB(225, 225, 225)
 Character_Section.BackgroundTransparency = 1.000
 Character_Section.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Character_Section.BorderSizePixel = 0
@@ -975,7 +975,7 @@ WalkSpeed_Input.Name = "WalkSpeed_Input"
 WalkSpeed_Input.Parent = Character_Section
 WalkSpeed_Input.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
 WalkSpeed_Input.BackgroundTransparency = 0.300
-WalkSpeed_Input.BorderColor3 = Color3.fromRGB(175, 25, 25)
+WalkSpeed_Input.BorderColor3 = Color3.fromRGB(225, 225, 225)
 WalkSpeed_Input.Position = UDim2.new(0, 210, 0, 25)
 WalkSpeed_Input.Size = UDim2.new(0, 175, 0, 30)
 WalkSpeed_Input.Font = Enum.Font.Gotham
@@ -1005,7 +1005,7 @@ JumpPower_Input.Name = "JumpPower_Input"
 JumpPower_Input.Parent = Character_Section
 JumpPower_Input.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
 JumpPower_Input.BackgroundTransparency = 0.300
-JumpPower_Input.BorderColor3 = Color3.fromRGB(175, 25, 25)
+JumpPower_Input.BorderColor3 = Color3.fromRGB(225, 225, 225)
 JumpPower_Input.Position = UDim2.new(0, 210, 0, 75)
 JumpPower_Input.Size = UDim2.new(0, 175, 0, 30)
 JumpPower_Input.Font = Enum.Font.Gotham
@@ -1080,7 +1080,7 @@ FlySpeed_Input.Name = "FlySpeed_Input"
 FlySpeed_Input.Parent = Character_Section
 FlySpeed_Input.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
 FlySpeed_Input.BackgroundTransparency = 0.300
-FlySpeed_Input.BorderColor3 = Color3.fromRGB(175, 25, 25)
+FlySpeed_Input.BorderColor3 = Color3.fromRGB(225, 225, 225)
 FlySpeed_Input.Position = UDim2.new(0, 210, 0, 125)
 FlySpeed_Input.Size = UDim2.new(0, 175, 0, 30)
 FlySpeed_Input.Font = Enum.Font.Gotham
@@ -1109,7 +1109,7 @@ Fly_Button.TextWrapped = true
 Target_Section.Name = "Target_Section"
 Target_Section.Parent = Background
 Target_Section.Active = true
-Target_Section.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Target_Section.BackgroundColor3 = Color3.fromRGB(225, 225, 225)
 Target_Section.BackgroundTransparency = 1.000
 Target_Section.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Target_Section.BorderSizePixel = 0
@@ -1122,7 +1122,7 @@ Target_Section.ScrollBarThickness = 5
 TargetImage.Name = "TargetImage"
 TargetImage.Parent = Target_Section
 TargetImage.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
-TargetImage.BorderColor3 = Color3.fromRGB(175, 25, 25)
+TargetImage.BorderColor3 = Color3.fromRGB(225, 225, 225)
 TargetImage.Position = UDim2.new(0, 25, 0, 25)
 TargetImage.Size = UDim2.new(0, 100, 0, 100)
 TargetImage.Image = "rbxassetid://10818605405"
@@ -1131,7 +1131,7 @@ TargetName_Input.Name = "TargetName_Input"
 TargetName_Input.Parent = Target_Section
 TargetName_Input.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
 TargetName_Input.BackgroundTransparency = 0.300
-TargetName_Input.BorderColor3 = Color3.fromRGB(175, 25, 25)
+TargetName_Input.BorderColor3 = Color3.fromRGB(225, 225, 225)
 TargetName_Input.Position = UDim2.new(0, 150, 0, 30)
 TargetName_Input.Size = UDim2.new(0, 175, 0, 30)
 TargetName_Input.Font = Enum.Font.Gotham
@@ -1144,7 +1144,7 @@ TargetName_Input.TextWrapped = true
 
 ClickTargetTool_Button.Name = "ClickTargetTool_Button"
 ClickTargetTool_Button.Parent = TargetName_Input
-ClickTargetTool_Button.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ClickTargetTool_Button.BackgroundColor3 = Color3.fromRGB(225, 225, 225)
 ClickTargetTool_Button.BackgroundTransparency = 1.000
 ClickTargetTool_Button.BorderColor3 = Color3.fromRGB(0, 0, 0)
 ClickTargetTool_Button.BorderSizePixel = 0
@@ -1154,7 +1154,7 @@ ClickTargetTool_Button.Image = "http://www.roblox.com/asset/?id=96087992310023"
 
 UserIDTargetLabel.Name = "UserIDTargetLabel"
 UserIDTargetLabel.Parent = Target_Section
-UserIDTargetLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UserIDTargetLabel.BackgroundColor3 = Color3.fromRGB(225, 225, 225)
 UserIDTargetLabel.BackgroundTransparency = 1.000
 UserIDTargetLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
 UserIDTargetLabel.BorderSizePixel = 0
@@ -1351,7 +1351,7 @@ DragTarget_Button.TextWrapped = true
 Animations_Section.Name = "Animations_Section"
 Animations_Section.Parent = Background
 Animations_Section.Active = true
-Animations_Section.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Animations_Section.BackgroundColor3 = Color3.fromRGB(225, 225, 225)
 Animations_Section.BackgroundTransparency = 1.000
 Animations_Section.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Animations_Section.BorderSizePixel = 0
@@ -1679,7 +1679,7 @@ ZombieFEAnim_Button.TextWrapped = true
 Misc_Section.Name = "Misc_Section"
 Misc_Section.Parent = Background
 Misc_Section.Active = true
-Misc_Section.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Misc_Section.BackgroundColor3 = Color3.fromRGB(225, 225, 225)
 Misc_Section.BackgroundTransparency = 1.000
 Misc_Section.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Misc_Section.BorderSizePixel = 0
@@ -1872,7 +1872,7 @@ Serverhop_Button.TextWrapped = true
 ChatBox_Input.Name = "ChatBox_Input"
 ChatBox_Input.Parent = Misc_Section
 ChatBox_Input.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
-ChatBox_Input.BorderColor3 = Color3.fromRGB(175, 25, 25)
+ChatBox_Input.BorderColor3 = Color3.fromRGB(225, 225, 225)
 ChatBox_Input.Position = UDim2.new(0, 25, 0, 325)
 ChatBox_Input.Size = UDim2.new(0, 335, 0, 50)
 ChatBox_Input.Font = Enum.Font.Oswald
@@ -1887,7 +1887,7 @@ ChatBox_Input.TextYAlignment = Enum.TextYAlignment.Top
 Credits_Section.Name = "Credits_Section"
 Credits_Section.Parent = Background
 Credits_Section.Active = true
-Credits_Section.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Credits_Section.BackgroundColor3 = Color3.fromRGB(225, 225, 225)
 Credits_Section.BackgroundTransparency = 1.000
 Credits_Section.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Credits_Section.BorderSizePixel = 0
@@ -1905,7 +1905,7 @@ Credits_Label.BorderSizePixel = 0
 Credits_Label.Position = UDim2.new(0, 25, 0, 150)
 Credits_Label.Size = UDim2.new(0, 350, 0, 150)
 Credits_Label.Font = Enum.Font.SourceSans
-Credits_Label.Text = "Made by: The Penguin Company Version "..version
+Credits_Label.Text = "Made by: Wet Bread Productions Version "..version
 Credits_Label.TextColor3 = Color3.fromRGB(225, 225, 225)
 Credits_Label.TextSize = 24.000
 Credits_Label.TextWrapped = true
@@ -1915,17 +1915,17 @@ Credits_Label.TextYAlignment = Enum.TextYAlignment.Top
 Crown.Name = "Crown"
 Crown.Parent = Background
 Crown.AnchorPoint = Vector2.new(0.300000012, 0.800000012)
-Crown.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Crown.BackgroundColor3 = Color3.fromRGB(225, 225, 225)
 Crown.BackgroundTransparency = 1.000
 Crown.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Crown.BorderSizePixel = 0
 Crown.Rotation = -5.000
 Crown.Size = UDim2.new(0, 75, 0, 75)
 Crown.Image = "http://www.roblox.com/asset/?id=136554112667062"
-Crown.ImageColor3 = Color3.fromRGB(255, 255, 255)
+Crown.ImageColor3 = Color3.fromRGB(225, 225, 225)
 
 Assets.Name = "Assets"
-Assets.Parent = TSSR1337
+Assets.Parent = iLikeGuys
 
 Ticket_Asset.Name = "Ticket_Asset"
 Ticket_Asset.Parent = Assets
@@ -1971,13 +1971,13 @@ Fly_Pad.ImageRectOffset = Vector2.new(713, 315)
 Fly_Pad.ImageRectSize = Vector2.new(75, 75)
 Fly_Pad.Visible = false
 
-UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(30, 30, 30)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(175, 25, 25))}
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(30, 30, 30)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(225, 225, 225))}
 UIGradient.Rotation = 45
 UIGradient.Parent = Fly_Pad
 
 FlyAButton.Name = "FlyAButton"
 FlyAButton.Parent = Fly_Pad
-FlyAButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FlyAButton.BackgroundColor3 = Color3.fromRGB(225, 225, 225)
 FlyAButton.BackgroundTransparency = 1.000
 FlyAButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
 FlyAButton.BorderSizePixel = 0
@@ -1991,7 +1991,7 @@ FlyAButton.TextWrapped = true
 
 FlyDButton.Name = "FlyDButton"
 FlyDButton.Parent = Fly_Pad
-FlyDButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FlyDButton.BackgroundColor3 = Color3.fromRGB(225, 225, 225)
 FlyDButton.BackgroundTransparency = 1.000
 FlyDButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
 FlyDButton.BorderSizePixel = 0
@@ -2005,7 +2005,7 @@ FlyDButton.TextWrapped = true
 
 FlyWButton.Name = "FlyWButton"
 FlyWButton.Parent = Fly_Pad
-FlyWButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FlyWButton.BackgroundColor3 = Color3.fromRGB(225, 225, 225)
 FlyWButton.BackgroundTransparency = 1.000
 FlyWButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
 FlyWButton.BorderSizePixel = 0
@@ -2019,7 +2019,7 @@ FlyWButton.TextWrapped = true
 
 FlySButton.Name = "FlySButton"
 FlySButton.Parent = Fly_Pad
-FlySButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FlySButton.BackgroundColor3 = Color3.fromRGB(225, 225, 225)
 FlySButton.BackgroundTransparency = 1.000
 FlySButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
 FlySButton.BorderSizePixel = 0
@@ -2032,14 +2032,14 @@ FlySButton.TextSize = 25.000
 FlySButton.TextWrapped = true
 
 OpenClose.Name = "OpenClose"
-OpenClose.Parent = TSSR1337
+OpenClose.Parent = iLikeGuys
 OpenClose.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 OpenClose.BorderColor3 = Color3.fromRGB(0, 0, 0)
 OpenClose.BorderSizePixel = 0
 OpenClose.Position = UDim2.new(0, 0, 0.5, 0)
 OpenClose.Size = UDim2.new(0, 30, 0, 30)
 OpenClose.Image = "http://www.roblox.com/asset/?id=136554112667062"
-OpenClose.ImageColor3 = Color3.fromRGB(255, 255, 255)
+OpenClose.ImageColor3 = Color3.fromRGB(225, 225, 225)
 
 UICornerOC.CornerRadius = UDim.new(1, 0)
 UICornerOC.Parent = OpenClose
@@ -2149,7 +2149,7 @@ end
 local function UpdateTarget(player)
 	pcall(function()
 		if table.find(ForceWhitelist,player.UserId) then
-			SendNotify("The Penguin Gui","You cant target this player: @"..player.Name.." / "..player.DisplayName,5)
+			SendNotify("COMMAND/PANEL","You cant target this player: @"..player.Name.." / "..player.DisplayName,5)
 			player = nil
 		end
 	end)
@@ -2521,7 +2521,7 @@ end)
 CMDBar.FocusLost:Connect(function()
 	command = CMDBar.Text
 	Players:Chat(command)
-	SendNotify("The Penguin Gui",("Executed "..command),5)
+	SendNotify("COMMAND/PANEL",("Executed "..command),5)
 	CMDBar.Text = ""
 end)
 
@@ -2534,7 +2534,7 @@ WalkSpeed_Button.MouseButton1Click:Connect(function()
 			Speed = 16
 		end
 		plr.Character.Humanoid.WalkSpeed = tonumber(Speed)
-		SendNotify("The Penguin Gui","Walk speed updated.",5)
+		SendNotify("COMMAND/PANEL","Walk speed updated.",5)
 	end)
 end)
 
@@ -2545,7 +2545,7 @@ JumpPower_Button.MouseButton1Click:Connect(function()
 			Power = 50
 		end
 		plr.Character.Humanoid.JumpPower = tonumber(Power)
-		SendNotify("The Penguin Gui","Jump power updated.",5)
+		SendNotify("COMMAND/PANEL","Jump power updated.",5)
 	end)
 end)
 
@@ -2556,7 +2556,7 @@ FlySpeed_Button.MouseButton1Click:Connect(function()
 			Speed = 50
 		end
 		FlySpeed = tonumber(Speed)
-		SendNotify("The Penguin Gui","Fly speed updated.",5)
+		SendNotify("COMMAND/PANEL","Fly speed updated.",5)
 	end)
 end)
 
@@ -2569,12 +2569,12 @@ end)
 
 SaveCheckpoint_Button.MouseButton1Click:Connect(function()
 	SavedCheckpoint = GetRoot(plr).Position
-	SendNotify("The Penguin Gui","Checkpoint saved.",5)
+	SendNotify("COMMAND/PANEL","Checkpoint saved.",5)
 end)
 
 ClearCheckpoint_Button.MouseButton1Click:Connect(function()
 	SavedCheckpoint = nil
-	SendNotify("The Penguin Gui","Checkpoint cleared.",5)
+	SendNotify("COMMAND/PANEL","Checkpoint cleared.",5)
 end)
 
 local flying = true
@@ -2968,10 +2968,10 @@ WhitelistTarget_Button.MouseButton1Click:Connect(function()
 					table.remove(ScriptWhitelist, i)
 				end
 			end
-			SendNotify("The Penguin Gui",TargetedPlayer.." removed from whitelist.",5)
+			SendNotify("COMMAND/PANEL",TargetedPlayer.." removed from whitelist.",5)
 		else
 			table.insert(ScriptWhitelist, Players[TargetedPlayer].UserId)
-			SendNotify("The Penguin Gui",TargetedPlayer.." added to whitelist.", 5)
+			SendNotify("COMMAND/PANEL",TargetedPlayer.." added to whitelist.", 5)
 		end
 	end
 end)
@@ -3448,7 +3448,7 @@ Day_Button.MouseButton1Click:Connect(function()
 	if Shaders_Button.Ticket_Asset.ImageColor3 == Color3.fromRGB(255,0,0) then
 		game:GetService("Lighting").ClockTime = 14
 	else
-		SendNotify("The Penguin Gui","Please turn off shaders.",5)
+		SendNotify("COMMAND/PANEL","Please turn off shaders.",5)
 	end
 end)
 
@@ -3456,7 +3456,7 @@ Night_Button.MouseButton1Click:Connect(function()
 	if Shaders_Button.Ticket_Asset.ImageColor3 == Color3.fromRGB(255,0,0) then
 		game:GetService("Lighting").ClockTime = 19
 	else
-		SendNotify("The Penguin Gui","Please turn off shaders.",5)
+		SendNotify("COMMAND/PANEL","Please turn off shaders.",5)
 	end
 end)
 
@@ -3484,7 +3484,7 @@ end)
 FreeEmotes_Button.MouseButton1Click:Connect(function()
 	if not FreeEmotesEnabled then
 		FreeEmotesEnabled = true
-		SendNotify("The Penguin Gui","Loading free emotes.\nCredits: Gi#7331")
+		SendNotify("COMMAND/PANEL","Loading free emotes.\nCredits: Gi#7331")
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/H20CalibreYT/SystemBroken/main/AllEmotes"))()
 	end
 end)
@@ -3522,7 +3522,7 @@ Players.PlayerRemoving:Connect(function(player)
 	pcall(function()
 		if player.Name == TargetedPlayer then
 			UpdateTarget(nil)
-			SendNotify("The Penguin Gui","Targeted player left/rejoined.",5)
+			SendNotify("COMMAND/PANEL","Targeted player left/rejoined.",5)
 		end
 	end)
 end)
@@ -3535,19 +3535,19 @@ plr.CharacterAdded:Connect(function(x)
 	end
 	if PotionDi_Button.Ticket_Asset.ImageColor3 == Color3.fromRGB(0,255,0) then
 		ChangeToggleColor(PotionDi_Button)
-		SendNotify("The Penguin Gui","PotionDick was automatically disabled due to your character respawn",5)
+		SendNotify("COMMAND/PANEL","PotionDick was automatically disabled due to your character respawn",5)
 	end
 	if PotionFling_Button.Ticket_Asset.ImageColor3 == Color3.fromRGB(0,255,0) then
 		ChangeToggleColor(PotionFling_Button)
-		SendNotify("The Penguin Gui","PotionFling was automatically disabled due to your character respawn",5)
+		SendNotify("COMMAND/PANEL","PotionFling was automatically disabled due to your character respawn",5)
 	end
 	if AntiRagdoll_Button.Ticket_Asset.ImageColor3 == Color3.fromRGB(0,255,0) then
 		ChangeToggleColor(AntiRagdoll_Button)
-		SendNotify("The Penguin Gui","AntiRagdoll was automatically disabled due to your character respawn",5)
+		SendNotify("COMMAND/PANEL","AntiRagdoll was automatically disabled due to your character respawn",5)
 	end
 	if SpamMines_Button.Ticket_Asset.ImageColor3 == Color3.fromRGB(0,255,0) then
 		ChangeToggleColor(SpamMines_Button)
-		SendNotify("The Penguin Gui","SpamMines was automatically disabled due to your character respawn",5)
+		SendNotify("COMMAND/PANEL","SpamMines was automatically disabled due to your character respawn",5)
 	end
 	if Fly_Button.Ticket_Asset.ImageColor3 == Color3.fromRGB(0,255,0) then
 		ChangeToggleColor(Fly_Button)
@@ -3555,7 +3555,7 @@ plr.CharacterAdded:Connect(function(x)
 		Fly_Pad.Visible = false
 		KeyDownFunction:Disconnect()
 		KeyUpFunction:Disconnect()
-		SendNotify("The Penguin Gui","Fly was automatically disabled due to your character respawn",5)
+		SendNotify("COMMAND/PANEL","Fly was automatically disabled due to your character respawn",5)
 	end
 	x.Humanoid.Died:Connect(function()
 		pcall(function()
@@ -3570,9 +3570,9 @@ task.spawn(function()
 		pcall(function()
 			local GuiVersion = loadstring(game:HttpGet("https://raw.githubusercontent.com/H20CalibreYT/SystemBroken/main/version"))()
 			if version<GuiVersion then
-				SendNotify("The Penguin Gui","You are not using the latest version, please run the script again.",5)
+				SendNotify("COMMAND/PANEL","You are not using the latest version, please run the script again.",5)
 				task.wait(5)
-				TSSR1337:Destroy()
+				iLikeGuys:Destroy()
 				game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, game.JobId, plr)
 			end
 		end)
@@ -3590,6 +3590,6 @@ game:GetService("UserInputService").InputBegan:Connect(function(input,gameProces
 	end
 end)
 
-SendNotify("Penguin Gui","Gui developed by The Penguin Company",10)
-setclipboard("The Penguin Gui")
+SendNotify("COMMAND/PANEL","Gui developed by Wet Bread Productions",10)
+setclipboard("COMMAND/PANEL")
 loadstring(game:HttpGet("https://raw.githubusercontent.com/H20CalibreYT/SystemBroken/main/premium"))() -- load the premium (doesnt work)
