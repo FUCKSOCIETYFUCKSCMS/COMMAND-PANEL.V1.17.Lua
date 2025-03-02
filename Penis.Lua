@@ -117,7 +117,7 @@ RadiusCorner.Parent = RadiusDisplay
 local Watermark = Instance.new("TextLabel")
 Watermark.Size = UDim2.new(1, 0, 0, 20)
 Watermark.Position = UDim2.new(0, 0, 1, -20)
-Watermark.Text = "Super Ring [V3] - Cracked By Projeto LKB"
+Watermark.Text = "Super Ring [V3]"
 Watermark.TextColor3 = Color3.fromRGB(101, 67, 33) -- Dark brown
 Watermark.BackgroundTransparency = 1
 Watermark.Font = Enum.Font.Fondamento
@@ -229,9 +229,9 @@ if not getgenv().Network then
 end
 
 local radius = 50
-local height = 100
-local rotationSpeed = 10
-local attractionStrength = 1500
+local height = 80
+local rotationSpeed = 7
+local attractionStrength = 50000
 local ringPartsEnabled = false
 
 local function RetainPart(Part)
