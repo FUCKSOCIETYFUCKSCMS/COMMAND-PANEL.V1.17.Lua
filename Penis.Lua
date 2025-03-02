@@ -229,9 +229,9 @@ if not getgenv().Network then
 end
 
 local radius = 50
-local height = 80
-local rotationSpeed = 11
-local attractionStrength = 50000
+local height = 100
+local rotationSpeed = 10
+local attractionStrength = 5000
 local ringPartsEnabled = false
 
 local function RetainPart(Part)
