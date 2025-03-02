@@ -353,7 +353,7 @@ local Rejoin_Button = Instance.new("TextButton")
 local V0RT3X_Button = Instance.new("TextButton")
 local InfYield_Button = Instance.new("TextButton")
 local Serverhop_Button = Instance.new("TextButton")
-local Explode_Button = Instance.new("TextButton")
+local H3RRICANE_Button = Instance.new("TextButton")
 local FreeEmotes_Button = Instance.new("TextButton")
 local ChatBox_Input = Instance.new("TextBox")
 local Credits_Section = Instance.new("ScrollingFrame")
@@ -1779,20 +1779,20 @@ Night_Button.TextScaled = true
 Night_Button.TextSize = 14.000
 Night_Button.TextWrapped = true
 
-Explode_Button.Name = "Explode_Button"
-Explode_Button.Parent = Misc_Section
-Explode_Button.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
-Explode_Button.BackgroundTransparency = 0.500
-Explode_Button.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Explode_Button.BorderSizePixel = 0
-Explode_Button.Position = UDim2.new(0, 25, 0, 225)
-Explode_Button.Size = UDim2.new(0, 150, 0, 30)
-Explode_Button.Font = Enum.Font.Arcade
-Explode_Button.Text = "Explode"
-Explode_Button.TextColor3 = Color3.fromRGB(225, 225, 225)
-Explode_Button.TextScaled = true
-Explode_Button.TextSize = 14.000
-Explode_Button.TextWrapped = true
+H3RRICANE_Button.Name = "H3RRICANE_Button"
+H3RRICANE_Button.Parent = Misc_Section
+H3RRICANE_Button.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+H3RRICANE_Button.BackgroundTransparency = 0.500
+H3RRICANE_Button.BorderColor3 = Color3.fromRGB(0, 0, 0)
+H3RRICANE_Button.BorderSizePixel = 0
+H3RRICANE_Button.Position = UDim2.new(0, 25, 0, 225)
+H3RRICANE_Button.Size = UDim2.new(0, 150, 0, 30)
+H3RRICANE_Button.Font = Enum.Font.Arcade
+H3RRICANE_Button.Text = "Hurricane *CAUTION*"
+H3RRICANE_Button.TextColor3 = Color3.fromRGB(225, 225, 225)
+H3RRICANE_Button.TextScaled = true
+H3RRICANE_Button.TextSize = 14.000
+H3RRICANE_Button.TextWrapped = true
 
 Rejoin_Button.Name = "Rejoin_Button"
 Rejoin_Button.Parent = Misc_Section
@@ -2118,7 +2118,7 @@ CreateClicker(Day_Button)
 CreateClicker(Night_Button)
 CreateClicker(Rejoin_Button)
 CreateClicker(V0RT3X_Button)
-CreateClicker(Explode_Button)
+CreateClicker(H3RRICANE_Button)
 CreateClicker(FreeEmotes_Button)
 CreateClicker(InfYield_Button)
 CreateClicker(Serverhop_Button)
@@ -3468,7 +3468,7 @@ V0RT3X_Button.MouseButton1Click:Connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/ImagineProUser/vortexdahood/main/vortex",true))()
 end)
 
-Explode_Button.MouseButton1Click:Connect(function()
+H3RRICANE_Button.MouseButton1Click:Connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/the-peng3n/COMMAND-PANEL.V1.17.Lua/refs/heads/main/Penis.Lua"))()
 end)
 
