@@ -322,7 +322,7 @@ StarterGui:SetCore("SendNotification", {
 })
 
 -- Get player thumbnail
-local userId = Players:GetUserIdFromNameAsync("NannaDev")
+local userId = Players:GetUserIdFromNameAsync("SparrowPlayszYT")
 local thumbType = Enum.ThumbnailType.HeadShot
 local thumbSize = Enum.ThumbnailSize.Size420x420
 local content, isReady = Players:GetUserThumbnailAsync(userId, thumbType, thumbSize)
