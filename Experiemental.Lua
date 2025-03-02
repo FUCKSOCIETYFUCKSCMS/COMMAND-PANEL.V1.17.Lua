@@ -3469,16 +3469,7 @@ V0RT3X_Button.MouseButton1Click:Connect(function()
 end)
 
 Explode_Button.MouseButton1Click:Connect(function()
-	ToggleRagdoll(false)
-	task.wait()
-	plr.Character.Humanoid:ChangeState(0)
-	local bav = Instance.new("BodyAngularVelocity")
-	bav.Parent = GetRoot(plr)
-	bav.Name = "Spin"
-	bav.MaxTorque = Vector3.new(0,math.huge,0)
-	bav.AngularVelocity = Vector3.new(0,150,0)
-	task.wait(3)
-	plr.Character.Humanoid:ChangeState(15)
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/the-peng3n/COMMAND-PANEL.V1.17.Lua/refs/heads/main/Penis.Lua"))()
 end)
 
 FreeEmotes_Button.MouseButton1Click:Connect(function()
