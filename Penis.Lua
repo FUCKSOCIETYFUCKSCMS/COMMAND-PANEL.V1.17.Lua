@@ -303,13 +303,13 @@ ToggleButton.MouseButton1Click:Connect(function()
 end)
 
 DecreaseRadius.MouseButton1Click:Connect(function()
-    radius = math.max(10, radius - 5)
+    radius = math.max(10, radius - 10)
     RadiusDisplay.Text = "Radius: " .. radius
     playSound("12221967")
 end)
 
 IncreaseRadius.MouseButton1Click:Connect(function()
-    radius = math.min(100, radius + 5)
+    radius = math.min(100, radius + 10)
     RadiusDisplay.Text = "Radius: " .. radius
     playSound("12221967")
 end)
