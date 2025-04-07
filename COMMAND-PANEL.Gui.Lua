@@ -3395,12 +3395,12 @@ Bloom.Intensity = 0.3
 Bloom.Size = 10
 Bloom.Threshold = 0.8
 
-Blur.Size = 5
+Blur.Size = 1.12
 
 ColorCor.Brightness = 0.1
 ColorCor.Contrast = 0.25
 ColorCor.Saturation = -0.3
-ColorCor.TintColor = Color3.fromRGB(150, 150, 15) -- Atmosphere colour
+ColorCor.TintColor = Color3.fromRGB(150, 150, 150) -- Atmosphere colour
 
 SunRays.Intensity = 0.075
 SunRays.Spread = 0.727
@@ -3428,8 +3428,8 @@ Lighting.ExposureCompensation = 0.5
 
 Atm.Density = 0.364
 Atm.Offset = 0.556
-Atm.Color = Color3.fromRGB(150, 150, 0) -- Atmosphere colour
-Atm.Decay = Color3.fromRGB(150, 150, 0) -- Atmosphere colour
+Atm.Color = Color3.fromRGB(150, 150, 150) -- Atmosphere colour
+Atm.Decay = Color3.fromRGB(150, 150, 150) -- Atmosphere colour
 Atm.Glare = 0.36
 Atm.Haze = 1.72
 
